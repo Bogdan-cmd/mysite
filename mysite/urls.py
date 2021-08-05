@@ -22,5 +22,5 @@ urlpatterns = [
     path('',include("blog.urls")),
     path('accounts/', include('django.contrib.auth.urls')),
     #path('accounts/login/',views.login,name='login'),
-    #path('accounts/logout/',views.logout,name='logout',kwargs={'next_page':'/'}), #ADICA DUPA CE MA DELOGHEZ VOI FI REDIRECTIONAT LA HOME PAGE
+    #path('accounts/logout/',views.logout,name='logout',kwargs={'next_page':'/'}), 
 ]
